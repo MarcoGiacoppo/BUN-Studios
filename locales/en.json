@@ -1,14 +1,14 @@
 {
 	"Hero": {
-		"h1": "Make Landing Page Faster",
-		"h2": "This is a free, open-source and powerful landing page template for saas project, it will help you to make your startup faster."
+		"h1": "Professional Photo and Video Production Team",
+		"h2": "Our goal is to deliver your messages into high quality pictures and videos that will bring your company, brand, and or event, to the next level."
 	},
 	"Feature": {
-		"h2": "Our Feature",
-		"h3": "Features of inWind Landing Page Template",
-		"description1": "Awesome landing page template.",
-		"description2": "Based on Next.JS, DaisyUI, TailwinCSS and other powerful libary.",
-		"description3": "Completely open source and completely free."
+		"h2": "What do we do?",
+		"h3": "Creative Photo and Video Production",
+		"description1": "As a full service photo and video production company, we offer you from scratch to final high quality products.",
+		"description2": "It does not matter what type of industry you are, or what kind of photo and video you need, we will deliver.",
+		"description3": "We are happy to talk about your next project!"
 	},
 	"Pricing": {
 		"h2": "Our Pricing",

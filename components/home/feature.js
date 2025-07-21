@@ -36,6 +36,7 @@ export default function Feature({ locale, langName = 'en' }) {
 						<br />
 						{locale.description2}
 						<br />
+						<br />
 						{locale.description3}
 					</h4>
 				</div>

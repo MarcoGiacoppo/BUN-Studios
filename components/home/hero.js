@@ -12,9 +12,9 @@ export default function Hero({ locale, CTALocale }) {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			const maxTilt = 45; // 最大倾斜角度
+			const maxTilt = 45; 
 			const scrollY = window.scrollY;
-			const tiltValue = Math.max(maxTilt - scrollY / 8, 0); // 根据滚动值调整
+			const tiltValue = Math.max(maxTilt - scrollY / 8, 0); 
 			setTilt(tiltValue);
 			setDuration(0.3);
 		};
@@ -81,15 +81,19 @@ export default function Hero({ locale, CTALocale }) {
 						delay: duration == 0.8 ? 0.4 : 0,
 						duration: duration,
 					}}
-					className='w-full'
+					className='w-full flex justify-center items-center mt-8 -mb-20'
 				>
-					<Image
-						width={1024}
-						height={600}
-						src={'/og.png'}
-						className='hidden md:flex w-full -mt-10'
-						alt='app demo'
-					/>
+					<div className="w-full max-w-4xl aspect-video rounded-2xl overflow-hidden shadow-xl ring-2 ring-base-content/10 bg-base-100">
+						<iframe
+							src="https://www.youtube.com/embed/ZMxnfZec7m8?autoplay=1&mute=1&loop=1&playlist=ZMxnfZec7m8"
+							title="YouTube video player"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerPolicy="strict-origin-when-cross-origin"
+							allowFullScreen
+							className="w-full h-full"
+							style={{ border: 'none' }}
+						/>
+					</div>
 				</motion.div>
 			</section>
 
